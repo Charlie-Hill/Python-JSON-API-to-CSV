@@ -1,5 +1,5 @@
 import pandas as pd
-from pandas.io.json import json_normalize
+from pandas import json_normalize
 import requests
 
 URL = 'https://jsonplaceholder.typicode.com/posts'
